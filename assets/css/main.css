@@ -1,8 +1,8 @@
 *, :after, :before {
   padding: 0;
   margin: o;
-  box-sizing: border-box;
-  border: 0 solid #e2e8f0;
+  /* box-sizing: border-box; */
+  /* border: 0 solid #e2e8f0; */
   font-family: 'Raleway', sans-serif;
 }
 
@@ -42,10 +42,6 @@ header {
 }
 
 /* BANNER AREA CSS */
-main {
-  display: block;
-}
-
 .welcome-banner {
   height: 600px;
   width: 100%;
@@ -147,6 +143,7 @@ main {
 .procedure {
   padding-top: 6rem;
   padding-bottom: 6rem;
+  background-color: rgba(105, 102, 102, 0.185);
 }
 .procedure-title {
   font-size: 1.875rem;
@@ -355,6 +352,7 @@ main {
 .product-samples {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
+  background-color: rgba(105, 102, 102, 0.185);
 }
 .product-samples p {
   text-transform: uppercase;
