@@ -45,6 +45,10 @@ header {
   text-transform: uppercase;
 }
 
+.navbar li a:hover {
+  color: red;
+}
+
 /* BANNER AREA CSS */
 .welcome-banner {
   height: 600px;
