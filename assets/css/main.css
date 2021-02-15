@@ -1,8 +1,8 @@
-*, :after, :before {
+* {
   padding: 0;
   margin: o;
-  /* box-sizing: border-box; */
-  /* border: 0 solid #e2e8f0; */
+  box-sizing: border-box;
+  border: 0 solid #e2e8f0;
   font-family: 'Raleway', sans-serif;
 }
 
