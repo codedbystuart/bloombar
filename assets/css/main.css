@@ -301,6 +301,11 @@ header {
   justify-content: center;
   align-items: center;
 }
+
+.feature-btn-area {
+  padding-top: 2rem;
+}
+
 .feature-button {
   font-size: 1rem;
   height: auto;
@@ -509,12 +514,14 @@ box-shadow: 0 2px 20px rgba(0,0,0,.2);
 }
 
 .promise-area h2 {
+  padding-top: 1rem;
   font-size: 2rem;
   color: white;
 }
 
 .promise-area .promise-desc {
   color: white;
+  padding-top: 2rem;
 }
 .promise-action {
   padding-top: 4rem;
@@ -575,6 +582,10 @@ box-shadow: 0 2px 20px rgba(0,0,0,.2);
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.cta-desc {
+  padding-top: 2rem;
 }
 .cta-btn {
   padding-top: 2rem;
