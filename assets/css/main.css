@@ -470,4 +470,68 @@ box-shadow: 0 2px 20px rgba(0,0,0,.2);
   color: #f38695;
   display: block;
   margin-top: 5px;
-} 
+}
+
+/* PROMISE CSS */
+.promise-area {
+  padding-top: 4rem;
+  height: 600px;
+  width: 100%;
+  background: url('../images/bg/garden.jpg');
+  background-size: contain;
+  position: relative;
+}
+.layer {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.promise-area .promise-title {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  color: white;
+}
+
+.promise-area h2 {
+  font-size: 2rem;
+  color: white;
+}
+
+.promise-area .promise-desc {
+  color: white;
+}
+.promise-action {
+  padding-top: 4rem;
+}
+.promise-button {
+  font-size: 1rem;
+  height: auto;
+  line-height: 1.25;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 0.25rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-right: 0;
+  --border-opacity: 1;
+  --bg-opacity: 1;
+  background-color: red;
+  border-color: red;
+  color: white;
+  cursor: pointer;
+}
